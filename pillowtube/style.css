@@ -1,0 +1,50 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    font: 1rem/1.6 system-ui, sans-serif;
+}
+
+main {
+    max-width: 66ch;
+    margin-inline: auto;
+    padding: 0 1rem;
+}
+
+p, ul, h2 {
+    margin: 0 0 1rem 0;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.intro > img,
+.app-store-badge {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.intro h1 {
+    margin: 0;
+    font-size: clamp(2rem, 6vw, 3rem);
+    line-height: 1.1;
+}
+
+.app-store-badge {
+    display: inline-block;
+    padding: 10px;
+}
+
+.app-store-badge img {
+    display: block;
+    width: auto;
+}
+
+.features li + li {
+    margin-block-start: 0.5rem;
+}
