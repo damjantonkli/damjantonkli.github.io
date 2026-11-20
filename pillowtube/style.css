@@ -18,7 +18,6 @@ p, ul, h2 {
 
 .intro {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
 }
@@ -27,6 +26,10 @@ p, ul, h2 {
 .app-store-badge {
     -webkit-user-select: none;
     user-select: none;
+}
+
+.logo {
+    border-radius: calc(2rem / 2);
 }
 
 .intro h1 {
